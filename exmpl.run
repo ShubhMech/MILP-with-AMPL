@@ -1,0 +1,9 @@
+reset;
+
+model exmpl.mod;
+
+option solver gurobi;
+
+solve;
+
+display x1, x2, z;
